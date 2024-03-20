@@ -1,0 +1,77 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.Navelements,.NavelementsForm{
+  transition: 0.4s ease;
+}
+
+.NavMenu li ul{
+  visibility: hidden;
+}
+.NavMenu li:hover ul{
+  visibility: visible;
+
+}
+.NavMenu li .sousMenuPrimary2{
+  visibility: hidden;
+}
+.NavMenu li:hover .sousMenuPrimary2{
+  visibility: visible;
+
+}
+
+.cardUser{
+  width: 16rem;
+}
+/* .cardUser,img::after{
+  content: 'Barahalikar Siddharth is not just a technologist but also an educator and innovator, committed to advancing technology through both professional practice and teaching.';
+  background-color: red;
+  position: relative;
+} */
+
+/* -------------------------------------------------------------------Chevron Element Effet------------------------------------------------------------------- */
+.RotatechevronTrue{
+  rotate: 90deg;
+  transition: 0.3s;
+
+}
+.Rotatechevronfalse{
+  rotate: 0deg;
+  transition: 0.6s;
+}
+/* -------------------------------------------------------------------------SousMenu-course Effet------------------------------------------------------------------------- */
+
+
+.CourseContainerTrue{
+  @apply bg-gray-200  px-4 pb-4 border rounded-b-lg -mt-8
+ 
+}
+.CourseContainerTrue{
+  
+  transform: translateY(0px);
+  transition: 0.8s;
+}
+.CourseContainerFalse{
+  transform: translateX(-100px);
+  transition: 0.8s;
+}
+
+.CourseContainerFalse{
+  @apply mt-0 opacity-0
+}
+
+.Bakaraki{
+  @apply text-white text-3xl font-Poppins  font-semibold
+}
+
+
+@media all and (min:989px) and (max:4999px) {
+  .sousMenuPrimary{
+   display: block;
+   position: static;
+  }
+}

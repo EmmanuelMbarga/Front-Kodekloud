@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* -------------------------------------style Navbar------------------------------------- */
+.Menukode{
+    @apply p-1 justify-items-center -ml-[4rem] flex justify-around items-center border-b border-b-gray-300 portable:justify-between portable:flex-row-reverse  petitPortable:flex petitPortable:justify-items-center tablete:justify-between portable:-mr-[20rem] petitPortable:w-[100%] tablete:ml-0 tablete:w-[100%] desktop:ml-0 desktop:m-auto 
+}
+/* --------------------------------------logo Navbar-------------------------------------- */
+.Navlogo{
+    @apply portable:ml-14 petitPortable:ml-4
+}
+/* ----------------------------------------------Nav-menuBurger---------------------------------------------- */
+.Nav-menuBurger{
+    @apply p-8 flex-wrap desktop:hidden portable:ml-[6rem]
+}
+
+
+/* ---------------------------------------------NavMenu--------------------------------------------- */
+.NavMenu{
+    @apply p-2 cursor-pointer transition-[0.8s] text-gray-500 items-center tablete:hidden portable:hidden desktop:flex desktop:font-Inter
+}
+.Navelements{
+    @apply text-[16px] mx-3 hover:text-sky-400
+}
+.NavelementsForm{
+    @apply text-[16px] mx-1 flex items-end hover:text-sky-400
+}
+.NavelementsButton{
+    @apply text-[16px] mx-3 flex items-end py-2 px-5 rounded-full bg-gradient-to-r from-sky-500 to-cyan-400 text-white 
+}
+/* ------------------------------------------------sousMenu1------------------------------------------------ */
+
+.sousMenuPrimary{
+    @apply bg-pink-300 absolute right-10 text-black top-[4rem] flex petitPortable:hidden portable:hidden
+}
+.sousMenuContainer{
+    @apply bg-violet-500 relative z-50 rounded mt-10 flex w-[60rem] 
+}
+.sousMenucontainerElement{
+    @apply w-[50rem] p-3
+}
+.sousMenucontainerElementsTitle{
+    @apply text-lg font-Poppins
+}
+.displositionGrid1{
+    @apply grid grid-cols-3 px-4
+}
+.displositionGrid2{
+    @apply grid grid-cols-2 w-[26rem] px-4
+}
+/* ------------------------------------------------BTnsousMenu1------------------------------------------------ */
+.containerBtn{
+    @apply mt-[1rem] px-6 flex
+}
+
+.BtnsousMenu1{
+    @apply border border-cyan-300 text-lg p-4 rounded-full mr-4 bg-white text-sky-400 flex items-center
+}
+.BtnsousMenu2{
+    @apply border border-cyan-300 text-lg p-4 rounded-full bg-white text-sky-400 flex items-center
+}
+.elementBtnsousMenu{
+    @apply mr-4
+}
+.conrRoleBased{
+   @apply w-[24rem] border-l p-3 
+}
+/* --------------------------------------------------sousMenu2-------------------------------------------------- */
+.sousMenuPrimary2{
+    @apply bg-pink-200 absolute right-[23rem] text-black top-[4rem] flex petitPortable:hidden portable:hidden
+}
+.sousMenuContainer2{
+    @apply w-[10rem] text-[0.89rem] mt-8 p-2 bg-violet-400 right-[4rem]  text-black top-[3rem] petitPortable:hidden portable:hidden
+}
+.sousMenuElmt{
+    @apply my-2 rounded
+}
+
+/* ------------------------------------------------------sousMenu3------------------------------------------------------ */
+
+/* -------------------------------------------conteneur d'element du body------------------------------------------- */
+
+
+/* .containerkodelSpacekode{
+    @apply grid grid-cols-2 gap-[26rem] mx-[7rem] w-[80%] mb-24  tablete:grid-cols-1 tablete:mx-7 
+   } */
+
+.containerkodelSpacekode{
+    @apply flex justify-around box-border mb-24 w-[100%]
+   }
+   
+
+
+/* -------------------------------------------------composant-KodelElement------------------------------------------------- */
+.contenentKodeElements{
+    @apply py-2 tablete:w-[100%] portable:w-[100%] desktop:w-[38rem] 
+    
+}
+
+/* -------------------------------------------------------composant-SpaceKodelElements------------------------------------------------------- */
+.SpacekodeElements{
+    @apply right-[4rem] text-blue-50 text-lg w-[30%]
+    /* fixed right-[0rem] tablete:static portable:static tablete:w-[100%] portable:w-[100%] */
+}
+
+/* ----------------------------------------------------FooterElement---------------------------------------------------- */
+.Footerkode{
+    @apply bg-orange-300 p-10
+}
+
+/* ------------------------------------------------------Effets------------------------------------------------------ */
+
+
+
+/* ------------------------------------------------------------------body0color------------------------------------------------------------------ */
