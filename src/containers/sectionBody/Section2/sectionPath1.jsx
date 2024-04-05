@@ -16,7 +16,6 @@ const Close = (
     />
   </svg>
 );
-import VideoKode from "../../../../../server/github-actions-intro.mp4";
 
 // console.log(App);
 
